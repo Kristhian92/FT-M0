@@ -95,7 +95,7 @@ function tienePropiedad(objeto, propiedad) {
     return false;
   }
 }
-
+// return objeto.hasOwnProperty(propiedad);
 function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
   // Devuelve "true" si coinciden
